@@ -1,0 +1,4 @@
+myfile:
+  testDir: /project/testDir/
+  zipDir: /project/zipDir/
+  compareDir: D:/aaa/
