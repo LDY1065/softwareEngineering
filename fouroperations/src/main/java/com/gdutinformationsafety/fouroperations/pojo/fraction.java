@@ -11,6 +11,12 @@ public class fraction {
         this.denominator = denominator;
     }
 
+    public fraction(String str){
+        int i=str.indexOf("/");
+        this.numerator=Long.valueOf(str.substring(0,i));
+        this.denominator=Long.valueOf(str.substring(i+1));
+    }
+
     /**
      * @Author huzhidong
      * @Description //最大公约数
