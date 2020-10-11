@@ -1,4 +1,5 @@
 myfile:
   testDir: /project/testDir/
   zipDir: /project/zipDir/
-  compareDir: D:/aaa/
+  compareDir: /project/compareDir/
+  gradeDir: /project/gradeDir/
