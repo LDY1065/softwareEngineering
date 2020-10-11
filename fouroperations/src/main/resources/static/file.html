@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        body {
+            background-color: #e6eef0;
+        }
+
+        .bear {
+            position: absolute;
+            z-index: 3;
+            top: 200px;
+            width: 200px;
+            height: 100px;
+            background: url(bear.png) no-repeat;
+            animation: bear 1s steps(8) infinite, move 5s forwards;
+        }
+
+        .bg1 {
+            position: absolute;
+            z-index: 2;
+            height: 33.6vh;
+            width: 100vw;
+            background: url(bg1.png);
+            animation: bg1 16s linear infinite backwards;
+        }
+
+        .bg2 {
+            position: absolute;
+            z-index: 1;
+            height: 33.6vh;
+            width: 100vw;
+            background: url(bg2.png);
+            animation: bg1 24s linear infinite backwards;
+        }
+
+        @keyframes bear {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -1600px 0px;
+            }
+        }
+
+        @keyframes move {
+            0% {
+                left: -200px;
+            }
+
+            100% {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes bg1 {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -3840px 0px;
+            }
+        }
+
+        @keyframes bg2 {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -3840px 0px;
+            }
+        }
+
+        .sky {
+            height: 33.6vh;
+            background-color: skyblue;
+
+        }
+
+        /* 提交按钮 */
+        .file {
+            margin-bottom: 100px;
+            position: relative;
+            width: 200px;
+            height: 60px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 200px);
+            text-align: center;
+            display: block;
+            background: #e6eef0;
+            border: 2px dashed skyblue;
+            border-radius: 4px;
+            padding: 4px 12px;
+            overflow: hidden;
+            color: #1E88C7;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 60px;
+            transition: all 1s;
+            font-size: 24px;
+            font-weight: 700
+        }
+
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .file:hover {
+            border-radius: 30px;
+            border: 2px solid #ffffff;
+            background: #AADFFD;
+            border-color: #ffffff;
+            color: #ffffff;
+            text-decoration: none;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        .finish {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            border: 2px dashed #ffffff;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #1E88C7;
+            font-size: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 1s;
+            outline: none;
+        }
+
+        .finish:hover {
+            width: 200px;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            background: skyblue;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="bear"></div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="sky"></div>
+    </div>
+    <form action="http://47.100.88.73:8080/checkAnswer/checkResult" method="post" class="qzbform" enctype="multipart/form-data">
+        <a href="javascript:;" class="file">题目文件
+            <input type="file" name="testFile">
+        </a>
+        <a href="javascript:;" class="file">答案文件
+            <input type="file" name="answerFile">
+        </a>
+        <input type="submit" value="生成" class="finish">
+    </form>
+</body>
+
+</html>
