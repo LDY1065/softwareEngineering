@@ -108,7 +108,7 @@ public class newTestService {
             }
         }while (answer.toString().equals("-1"));
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
-        answers.add(i+"、"+answer.toString()+'\n'+'\r');
+        answers.add(i+"、"+answer.toString()+"，"+'\n'+'\r');
     }
 
     private void newSubtraction(List<String> subjects,List<String> answers,int resultLimit,int i){
@@ -127,7 +127,7 @@ public class newTestService {
             }
         }while (answer.toString().equals("-1"));
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
-        answers.add(i+"、"+answer.toString()+'\n'+'\r');
+        answers.add(i+"、"+answer.toString()+"，"+'\n'+'\r');
     }
 
 
@@ -147,7 +147,7 @@ public class newTestService {
             }
         }while (answer.toString().equals("-1"));
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
-        answers.add(i+"、"+answer.toString()+'\n'+'\r');
+        answers.add(i+"、"+answer.toString()+"，"+'\n'+'\r');
     }
 
     private void newDivision(List<String> subjects,List<String> answers,int resultLimit,int i){
@@ -159,7 +159,7 @@ public class newTestService {
         fraction fraction=new fraction(dividend,divisor);
         answer.append(fraction.getBastString());
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
-        answers.add(i+"、"+answer.toString()+'\n'+'\r');
+        answers.add(i+"、"+answer.toString()+"，"+'\n'+'\r');
     }
 
     private void newFractional(List<String> subjects,List<String> answers,int resultLimit,int i){
@@ -200,7 +200,7 @@ public class newTestService {
             }
         }while (answer.toString().equals("-1"));
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
-        answers.add(i+"、"+answer.toString()+'\n'+'\r');
+        answers.add(i+"、"+answer.toString()+"，"+'\n'+'\r');
     }
 
     private String compress(File testFile,File answerFile) {
