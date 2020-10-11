@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单四则运算生成器</title>
+    <script type="text/javascript">
+        function check(){
+            var number = document.getElementById("number").value;
+            var resultLimit=document.getElementById("resultLimit").value;
+            if(number == null || number == ""||resultLimit == null|| resultLimit == ""){
+                alert("不能输入空值");
+                return false;
+            }
+            if(number == '0'|| resultLimit == '0'){
+                alert("请不要输入0")
+                return false;
+            }
+            if(isNaN(number)||isNaN(resultLimit)){
+                alert("请填写数字");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <style>
+        input::-webkit-input-placeholder {
+            /*Webkit browsers 谷歌*/
+            color: rgba(164, 164, 164, 1);
+            font-size: 18px;
+        }
+
+        input:-moz-placeholder {
+            /*Mozilla Firefox 4 to 8 火狐*/
+            color: rgba(164, 164, 164, 1);
+            font-size: 18px;
+        }
+
+        input::moz-placeholder {
+            /*Mozilla Firefox 19+ 火狐*/
+            color: rgba(164, 164, 164, 1);
+            font-size: 18px;
+        }
+
+        input:-ms-input-placeholder {
+            /*Internet Explorer 10+ IE10以上*/
+            color: rgba(164, 164, 164, 1);
+            font-size: 18px;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        body {
+            /* background-color: #cccccc; */
+        }
+
+        .bear {
+            position: absolute;
+            z-index: 3;
+            top: 200px;
+            width: 200px;
+            height: 100px;
+            background: url(bear.png) no-repeat;
+            animation: bear 1s steps(8) infinite, move 5s forwards;
+        }
+
+        .bg1 {
+            position: absolute;
+            z-index: 2;
+            height: 33.6vh;
+            width: 100vw;
+            background: url(bg1.png);
+            animation: bg1 16s linear infinite backwards;
+        }
+
+        .bg2 {
+            position: absolute;
+            z-index: 1;
+            height: 33.6vh;
+            width: 100vw;
+            background: url(bg2.png);
+            animation: bg1 24s linear infinite backwards;
+        }
+
+        @keyframes bear {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -1600px 0px;
+            }
+        }
+
+        @keyframes move {
+            0% {
+                left: -200px;
+            }
+
+            100% {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes bg1 {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -3840px 0px;
+            }
+        }
+
+        @keyframes bg2 {
+            0% {
+                background-position: 0px 0px;
+            }
+
+            100% {
+                background-position: -3840px 0px;
+            }
+        }
+
+        .sky {
+            height: 33.6vh;
+            background-color: skyblue;
+
+        }
+
+        /* 主体 */
+        .middle {
+            height: 66vh;
+            background-color: #e6eef0;
+        }
+
+        .formself {
+            position: relative;
+            text-align: center;
+            width: 600px;
+            margin: 0px auto;
+        }
+
+        .formself :focus {
+            outline: none;
+        }
+
+        .formself ul li {
+            padding-top: 60px;
+        }
+
+        /* .formself ul li label {
+            padding: 0px 20px;
+            margin-left: 19px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #000000;
+        } */
+        .formself ul li .inp {
+            width: 400px;
+            height: 50px;
+            margin: 30px;
+            border-radius: 25px;
+            border: 2px solid skyblue;
+            /* padding-left: 30px; */
+            /* text-indent: 30px; */
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            line-height: 50px;
+            transition: all 2s;
+        }
+
+        .formself .bingo {
+            position: absolute;
+            left: 50%;
+            top: 400px;
+            transform: translateX(-50%);
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+            border: 0px;
+            background-color: #e6eef0;
+            font-size: 24px;
+            color: skyblue;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 2s;
+
+        }
+
+        .inp:hover {
+            border: 0px solid #ffffff;
+            box-shadow: 0px 0px 30px rgba(3, 81, 250, 0.7);
+        }
+
+        .bingo:hover {
+            font-size: 26px;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+            background-color: skyblue;
+            color: #ffffff;
+        }
+
+        a {
+            width: 150px;
+            display: inline-block;
+            color: skyblue;
+            text-decoration: none;
+            position: relative;
+            top: 150px;
+            left: 1700px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        /* .formself .bingo::after {
+            content: '生成';
+            transform: translate(600px 600px);
+            width: 160px;
+            height: 160px;
+            border-radius: 100%;
+            background-color: skyblue;
+            
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="bear"></div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="sky"></div>
+    </div>
+    <div class="middle">
+        <div class="formAre">
+            <form action="http://47.100.88.73:8080/fourOperation/test" method="get" class="formself" onsubmit="return check()">
+                <ul>
+                    <li>
+                        <!-- <label for="tab1"></label> -->
+                        <input type="text" class="inp" id="number" name="number" placeholder="输入题目数量">
+                    </li>
+                    <li>
+                        <!-- <label for="tab2"></label> -->
+                        <input type="text" class="inp" id="resultLimit" name="resultLimit" placeholder="输入生成数字范围">
+                    </li>
+                    <input type="submit" value="生成" class="bingo">
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
