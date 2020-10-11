@@ -82,13 +82,10 @@ public class checkAnswerService {
                 fraction fraction2;
                 for(left=j-1;left>=0&&str.charAt(left)>=48&&str.charAt(left)<=57;left--);
                 for(right=j+1;right<str.length()&&str.charAt(right)>=48&&str.charAt(right)<=57;right++);
-                if(left<0&&right==str.length()){
-                    correctAnswerList.add(i+1+"、"+new fraction(str).getBastString());
-                    continue;
-                }else if(left>0&&right==str.length()){
-                    fraction1=new fraction(Long.valueOf(str.substring(0,left)),1);
-                    fraction2=new fraction(str.substring(left+1));
+                if(left>0){
                     operator=str.charAt(left);
+                    fraction2=new fraction(str.substring(left+1));
+                    fraction1=new fraction(Long.valueOf(str.substring(0,left)),1);
                 }else{
                     operator=str.charAt(right);
                     fraction1=new fraction(str.substring(0,right));
@@ -108,7 +105,7 @@ public class checkAnswerService {
                     case '*':
                         correctAnswerList.add(i+1+"、"+fraction1.multiply(fraction2).getBastString());
                         break;
-                    case '/':
+                    case '÷':
                         correctAnswerList.add(i+1+"、"+fraction1.divide(fraction2).getBastString());
                         break;
                     default:
@@ -130,6 +127,9 @@ public class checkAnswerService {
                         break;
                     case '*':
                         correctAnswerList.add(i+1+"、"+(calculateNumber1*calculateNumber2));
+                        break;
+                    case '÷':
+                        correctAnswerList.add(i+1+"、"+new fraction(calculateNumber1,calculateNumber2).getBastString());
                         break;
                     default:
                         correctAnswerList.add(i+1+"、错误");
@@ -254,13 +254,12 @@ public class checkAnswerService {
                 return fraction1.subtract(fraction2).getBastString();
             case "*":
                 return fraction1.multiply(fraction2).getBastString();
-            case "/":
+            case "÷":
                 return fraction1.divide(fraction2).getBastString();
             default:
                 return null;
         }
     }
-
 
 
 

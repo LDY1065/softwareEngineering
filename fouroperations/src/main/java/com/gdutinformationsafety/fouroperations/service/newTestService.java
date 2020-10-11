@@ -155,7 +155,7 @@ public class newTestService {
         StringBuilder answer=new StringBuilder();
         long dividend=random.nextInt(resultLimit);
         long divisor=random.nextInt(resultLimit-1)+1;
-        subject.append(dividend+" "+"/"+" "+divisor+" "+"=");
+        subject.append(dividend+" "+"÷"+" "+divisor+" "+"=");
         fraction fraction=new fraction(dividend,divisor);
         answer.append(fraction.getBastString());
         subjects.add(i+"、"+subject.toString()+'\n'+'\r');
@@ -190,7 +190,7 @@ public class newTestService {
                         answer.append(multiply.getBastString());
                         break;
                     case 3:
-                        subject.append(fraction1.getBastString()+" "+"/"+" "+fraction2.getBastString()+" "+"=");
+                        subject.append(fraction1.getBastString()+" "+"÷"+" "+fraction2.getBastString()+" "+"=");
                         fraction divide = fraction1.divide(fraction2);
                         answer.append(divide.getBastString());
                         break;
