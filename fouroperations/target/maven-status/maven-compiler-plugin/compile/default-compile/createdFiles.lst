@@ -1,0 +1,10 @@
+com\gdutinformationsafety\fouroperations\util\fileUtil.class
+com\gdutinformationsafety\fouroperations\pojo\fraction$1.class
+com\gdutinformationsafety\fouroperations\service\checkAnswerService.class
+com\gdutinformationsafety\fouroperations\service\newTestService.class
+com\gdutinformationsafety\fouroperations\pojo\fraction$ContainType.class
+com\gdutinformationsafety\fouroperations\FouroperationsApplication.class
+com\gdutinformationsafety\fouroperations\controller\newTestController.class
+com\gdutinformationsafety\fouroperations\pojo\fraction.class
+com\gdutinformationsafety\fouroperations\controller\checkAnswerController.class
+com\gdutinformationsafety\fouroperations\properties\testFileProperties.class
