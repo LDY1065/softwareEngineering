@@ -12,4 +12,5 @@ public class testFileProperties {
     private String testDir;
     private String zipDir;
     private String compareDir;
+    private String gradeDir;
 }
