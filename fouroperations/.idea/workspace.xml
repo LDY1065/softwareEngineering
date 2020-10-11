@@ -4,27 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a5e8ffb-ac7c-43c3-a3ff-b21b8e3f5687" name="Default Changelist" comment="" />
+    <list default="true" id="57ca01df-3845-4908-9315-d6eefbdba7ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/checkAnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/properties/testFileProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/properties/testFileProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/newTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/newTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\滨\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1iP5TPzaTTv3iIoJKpc6PPZ63hS" />
+  <component name="ProjectId" id="1ifVIKNYMK88gRhAqJdvxildQzH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,40 +40,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\softwareEngineering\fouroperations\src\main\resources\static" />
-      <recent name="E:\fouroperations\src\main\resources\static" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Spring Boot.FouroperationsApplication">
-    <configuration name="fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gdutinformationsafety.fouroperations.pojo.fraction" />
-      <module name="fouroperations" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdutinformationsafety.fouroperations.pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="newTestService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gdutinformationsafety.fouroperations.service.newTestService" />
+    <configuration name="checkAnswerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gdutinformationsafety.fouroperations.service.checkAnswerService" />
       <module name="fouroperations" />
       <extension name="coverage">
         <pattern>
@@ -78,19 +58,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,37 +71,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.fraction" />
-        <item itemvalue="Application.newTestService" />
+        <item itemvalue="Application.checkAnswerService" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringBootOptions">
-    <option name="showAdditionalConfigNotification" value="false" />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a5e8ffb-ac7c-43c3-a3ff-b21b8e3f5687" name="Default Changelist" comment="" />
-      <created>1601796395176</created>
+      <changelist id="57ca01df-3845-4908-9315-d6eefbdba7ad" name="Default Changelist" comment="" />
+      <created>1602298555085</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601796395176</updated>
-      <workItem from="1601796397372" duration="1306000" />
-      <workItem from="1601816798318" duration="2848000" />
-      <workItem from="1601823060418" duration="1457000" />
-      <workItem from="1601898421407" duration="9096000" />
-      <workItem from="1601954634261" duration="6553000" />
-      <workItem from="1601973130918" duration="7797000" />
-      <workItem from="1602042324638" duration="14066000" />
-      <workItem from="1602081070621" duration="613000" />
-      <workItem from="1602082871234" duration="835000" />
-      <workItem from="1602127334567" duration="3264000" />
-      <workItem from="1602132065774" duration="4747000" />
-      <workItem from="1602151970756" duration="4012000" />
-      <workItem from="1602238973341" duration="552000" />
-      <workItem from="1602239562413" duration="6320000" />
-      <workItem from="1602251061602" duration="7782000" />
+      <updated>1602298555085</updated>
+      <workItem from="1602298558785" duration="21623000" />
+      <workItem from="1602384012161" duration="10380000" />
     </task>
     <servers />
   </component>
@@ -142,65 +92,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601910306151">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602398643839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="493" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601910306151" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602398643839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602398643839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602398643839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1602398291531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1602398291531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1602398291531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1602257181796">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1602398291531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1602257181796">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602257181796" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1602250918841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602250918841" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1602250918841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602250918841" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1602250918841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602250918841" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1602250918841">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602250918841" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1602242156232">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602242156232" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602251955942">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602251955942" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
   </component>
 </project>
