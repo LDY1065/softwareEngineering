@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57ca01df-3845-4908-9315-d6eefbdba7ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/checkAnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/properties/testFileProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/properties/testFileProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/checkAnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/checkAnswerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/newTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdutinformationsafety/fouroperations/service/newTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdutinformationsafety/fouroperations/service/checkAnswerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdutinformationsafety/fouroperations/service/checkAnswerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdutinformationsafety/fouroperations/service/newTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdutinformationsafety/fouroperations/service/newTestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fouroperations-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/fouroperations-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fouroperations-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/fouroperations-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gdutinformationsafety.fouroperations.FouroperationsApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gdutinformationsafety.fouroperations.FouroperationsApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gdutinformationsafety.fouroperations.FouroperationsApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gdutinformationsafety.fouroperations.FouroperationsApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +54,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\softwareEngineering\fouroperations\src\main\resources\static" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.FouroperationsApplication">
     <configuration name="checkAnswerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,6 +70,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +108,9 @@
       <updated>1602298555085</updated>
       <workItem from="1602298558785" duration="21623000" />
       <workItem from="1602384012161" duration="10380000" />
+      <workItem from="1602405009796" duration="4373000" />
+      <workItem from="1602431051832" duration="1349000" />
+      <workItem from="1602432524526" duration="289000" />
     </task>
     <servers />
   </component>
@@ -92,37 +118,37 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602398643839">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602432815409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602398643839">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602432815409" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602432815409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602398643839">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602432815409" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602432815409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602398643839">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602432815409" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602432815409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602398643839" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1602398291531">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602432815409" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1602432777576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1602398291531">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602432777576" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1602432777576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1602398291531">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602432777576" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1602432777576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1602398291531">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602432777576" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1602432777576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602398291531" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602432777576" />
   </component>
 </project>
